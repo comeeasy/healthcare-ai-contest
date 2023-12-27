@@ -7,7 +7,7 @@ __F1-score__: `0.997` (비공식 1등.. [공식 1등: 0.996]) [pre-trained model
 ![각 이빨에 대한 충치 여부 판별](https://github.com/comeeasy/healthcare-ai-contest/blob/main/result/output.png)
 ----
 # Model Weight
-- ![Model download link](https://drive.google.com/drive/folders/1Dn8m15I3uQ5nXXqGVlXXb9Tz8j-Bf2Eq?usp=sharing)
+- [Model download link](https://drive.google.com/drive/folders/1Dn8m15I3uQ5nXXqGVlXXb9Tz8j-Bf2Eq?usp=sharing)
 
 # 소감
 - 폐쇄망에서 진행된 경진대회인 만큼 운영진이 철저히 준비를 했어야 했는데 그렇지 못했음.
