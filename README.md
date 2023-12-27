@@ -4,7 +4,7 @@ __F1-score__: `0.997` (비공식 1등..) [pre-trained model 을 사용하면 안
 
 ### 각 치아에 대한 충치 판별 시각화 자료.
 - 빨강: 실제 충치, 파랑: 충치라고 예측한 치아
-![각 이빨에 대한 충치 여부 판별]([https://raw.githubusercontent.com/bab-korea/healthcare-ai-contest/main/headlthcare_ai_contest_poster.png](https://github.com/comeeasy/healthcare-ai-contest/blob/main/result/output.png))
+![각 이빨에 대한 충치 여부 판별](https://github.com/comeeasy/healthcare-ai-contest/blob/main/result/output.png)
 
 
 ![2023 헬스케어 AI 경진대회(포스터](https://raw.githubusercontent.com/bab-korea/healthcare-ai-contest/main/headlthcare_ai_contest_poster.png)
