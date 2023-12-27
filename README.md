@@ -1,11 +1,19 @@
 # 결과
 
-__F1-score__: `0.997` (비공식 1등..) [pre-trained model 을 사용하면 안된다는 것을 경진대회 도중 issue를 통해서 특정 개인에게만 알려줌^^]
+__F1-score__: `0.997` (비공식 1등.. [공식 1등: 0.996]) [pre-trained model 을 사용하면 안된다는 것을 경진대회 도중 issue를 통해서 특정 개인에게만 알려줌^^]
 
 ### 각 치아에 대한 충치 판별 시각화 자료.
 - 빨강: 실제 충치, 파랑: 충치라고 예측한 치아
 ![각 이빨에 대한 충치 여부 판별](https://github.com/comeeasy/healthcare-ai-contest/blob/main/result/output.png)
+----
+# Model Weight
+- ![Model download link](https://drive.google.com/drive/folders/1Dn8m15I3uQ5nXXqGVlXXb9Tz8j-Bf2Eq?usp=sharing)
 
+# 소감
+- 폐쇄망에서 진행된 경진대회인 만큼 운영진이 철저히 준비를 했어야 했는데 그렇지 못했음.
+- 하나의 GPU 서버를 서로 다른 팀 인원들끼리 사용하도록하여 지저분한 GPU 점유 경쟁이 일어났고 그로인해 학습을 전혀 못한 인원들도 발생하였음.
+- Pre-trained model 을 사용하면 안된다는 것을 대회 도중에 알려줌. (전체 공지도 하지 않음.) 이런 운영진들이 사전학습 모델을 사용했는지 안했는지 판단을 가능한가에 대한 의문이 들었음..
+- 그냥 제출했으면 1등 했을거 같지만 pre-trained model을 사용했기 때문에 팀원들끼리 합의하에 중도 포기하였음..
 
 ![2023 헬스케어 AI 경진대회(포스터](https://raw.githubusercontent.com/bab-korea/healthcare-ai-contest/main/headlthcare_ai_contest_poster.png)
 
