@@ -1,5 +1,22 @@
 # 결과
+----
 
+Trainer will use only 1 of 2 GPUs because it is running inside an interactive / notebook environment. You may try to set `Trainer(devices=2)` but please note that multi-GPU inside interactive / notebook environments is considered experimental and unstable. Your mileage may vary.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+Testing DataLoader 0: 100%|██████████| 3000/3000 [03:43<00:00, 13.40it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+         test/f1             0.996999979019165
+    test/f1_weighted        0.9969989061355591
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[{'test/f1': 0.996999979019165, 'test/f1_weighted': 0.9969989061355591}]
+
+----
 __F1-score__: `0.997` (비공식 1등.. [공식 1등: 0.996]) [pre-trained model 을 사용하면 안된다는 것을 경진대회 도중 issue를 통해서 특정 개인에게만 알려줌^^]
 
 ### 각 치아에 대한 충치 판별 시각화 자료.
